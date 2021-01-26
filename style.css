@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+	padding: 2rem;
+	font-family: "Fraunces", serif;
+}
+
+.container {
+	text-align: center;
+}
+.container #search-form {
+	margin: 1rem auto;
+}
+.container #search-form input {
+	font-family: "Fraunces", serif;
+}
+.container .images {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.container .images img {
+	margin: 1rem;
+}
